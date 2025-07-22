@@ -3,7 +3,6 @@
 # Bitespeed Flow Builder
 
 
-
 A responsive, interactive chatbot flow builder built with modern web technologies as part of the Bitespeed frontend assessment.
 
 ### Key Highlights:
@@ -43,27 +42,44 @@ Experience the flow builder in action:
 1. Node.js and npm installed on your machine.
 2. Basic understanding of React.
 
-### Installation
 
-1. Clone the repository:
+## 🛠️ Installation & Setup
+
+### Prerequisites
+- Node.js v18 or later
+- npm, yarn, pnpm, or bun package manager
+- Git (for cloning the repository)
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/surajm7/bitespeed-flow-builder.git
 cd bitespeed-flow-builder
 
+`
+## Getting Started
+Choose your preferred package manager:
+```bash
+
+npm install
+# or 
+yarn install
+# or
+pnpm install
+# or
+bun install
 ```
 
-## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
+npm run start
 # or
-yarn dev
+yarn start
 # or
-pnpm dev
+pnpm start
 # or
-bun dev
+bun start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -142,7 +158,7 @@ The architecture is designed for easy extension. Here's how to add new capabilit
      decision: DecisionNode
    };
 
-3.**In NodeSelector.js**:
+3. **In NodeSelector.js**:
    ```javascript
 
 const nodeTypes = [
