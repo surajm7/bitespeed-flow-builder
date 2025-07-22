@@ -19,7 +19,7 @@ export default function Header({ onClickSave, showSaveAnimation }) {
         
         {/* GitHub repository link */}
         <a 
-          href="https://github.com/surajm7" 
+          href="https://github.com/surajm7/bitespeed-flow-builder" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-indigo-200 transition-colors"
