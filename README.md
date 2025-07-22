@@ -161,14 +161,14 @@ The architecture is designed for easy extension. Here's how to add new capabilit
 3. **In NodeSelector.js**:
    ```javascript
 
-const nodeTypes = [
-  // ...existing types
-  {
-    type: 'image',
-    value: 'Image Node',
-    icon: BiImageAlt
-  }
-];
+   const nodeTypes = [
+     // ...existing types
+     {
+       type: 'image',
+       value: 'Image Node',
+       icon: BiImageAlt
+     }
+   ];
 
 ## 📚 References & Resources
 
